@@ -1,6 +1,6 @@
 # Disclaimer
 
-This is an alpha version. **NEVER** use in a production environment. 
+This library is an alpha version. **It is NOT recommended to use this library in a production environment.** 
 
 # ngx-server-push
 
@@ -117,11 +117,15 @@ app.get('*', (req, res) => {
 
 ## Demo
 
-https://angular-prpl.appspot.com/
+https://ngx-server-push-demo.appspot.com/
 
-https://angular-prpl.appspot.com/lazy
+![Chrome devtool network tab top](/docs/images/network-top.png)
 
-You can see that the lazily loaded chunk (0.js) is pushed as well in the second screenshot.
+https://ngx-server-push-demo.appspot.com/lazy
+
+![Chrome devtool network tab lazy](/docs/images/network-lazy.png)
+
+You can see that the lazily loaded chunk (0.8c6a7127511b5f2ffe40.js) is pushed as well in the second screenshot.
 
 Source code: https://github.com/kimamula/universal-starter/tree/ngx-server-push
 
