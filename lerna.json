@@ -1,0 +1,7 @@
+{
+  "packages": [
+    "dist/{cli,webpack}",
+    "projects/*"
+  ],
+  "version": "0.0.0"
+}

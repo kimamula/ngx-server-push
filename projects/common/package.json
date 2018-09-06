@@ -1,0 +1,16 @@
+{
+  "name": "@ngx-server-push/common",
+  "version": "0.0.1",
+  "sideEffects": false,
+  "license": "MIT",
+  "peerDependencies": {
+    "@angular/common": "^6.0.0-rc.0 || ^6.0.0",
+    "@angular/core": "^6.0.0-rc.0 || ^6.0.0"
+  },
+  "devDependencies": {
+    "@nguniversal/module-map-ngfactory-loader": "^6.1.0"
+  },
+  "dependencies": {
+    "browser-capabilities": "^1.0.0"
+  }
+}

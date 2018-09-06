@@ -1,0 +1,19 @@
+{
+  "name": "@ngx-server-push/express",
+  "version": "0.0.1",
+  "sideEffects": false,
+  "license": "MIT",
+  "peerDependencies": {
+    "@angular/common": "^6.0.0-rc.0 || ^6.0.0",
+    "@angular/core": "^6.0.0-rc.0 || ^6.0.0",
+    "@nguniversal/express-engine": "^6.0.0"
+  },
+  "devDependencies": {
+    "@nguniversal/express-engine": "^6.1.0",
+    "@types/express": "^4.16.0",
+    "express": "^4.16.3"
+  },
+  "dependencies": {
+    "@ngx-server-push/common": "^0.0.1"
+  }
+}
