@@ -1,8 +1,6 @@
 {
-  "name": "@ngx-server-push/common",
+  "name": "@ngx-server-push/early-hints",
   "version": "0.0.1",
-  "sideEffects": false,
-  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kimamula/ngx-server-push.git"
@@ -11,7 +9,7 @@
     "@angular/common": "^7.0.0",
     "@angular/core": "^7.0.0"
   },
-  "devDependencies": {
-    "@nguniversal/module-map-ngfactory-loader": "^7.0.0"
+  "dependencies": {
+    "@ngx-server-push/common": "^0.0.1"
   }
 }

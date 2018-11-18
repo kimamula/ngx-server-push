@@ -1,4 +1,4 @@
-import { Config } from './Config';
+import { Config } from './config';
 
 const SOURCEMAP_REGEXP = /\.map$/;
 const REQUEST_SUFFIX_REGEXP = /\.ngfactory$/;

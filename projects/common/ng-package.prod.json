@@ -3,8 +3,5 @@
   "dest": "../../dist/common",
   "lib": {
     "entryFile": "src/public_api.ts"
-  },
-  "whitelistedNonPeerDependencies": [
-    "browser-capabilities"
-  ]
+  }
 }

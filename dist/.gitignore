@@ -1,5 +1,7 @@
 common
 express
+early-hints
+preload-link-headers
 
 *.js
 *.map

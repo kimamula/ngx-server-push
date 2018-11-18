@@ -16,12 +16,17 @@
       "node_modules/@types"
     ],
     "lib": [
-      "es2017",
-      "dom"
+      "es2018"
     ],
     "paths": {
       "@ngx-server-push/common": [
         "dist/common"
+      ],
+      "early-hints": [
+        "dist/early-hints"
+      ],
+      "early-hints/*": [
+        "dist/early-hints/*"
       ]
     }
   }

@@ -68,7 +68,8 @@ $ npm install @ngx-server-push/express
 ```diff
 // src/app/app.server.module.ts
 + import { requestResponseWrapperProvider } from '@ngx-server-push/express';
-+ import { ngModuleFactoryLoaderProvider } from '@ngx-server-push/common';
++ import { ngModuleFactoryLoaderProvider } from '@ngx-server-push/preload-link-headers';
+// If you want to use 
 // ...
 
 @NgModule({
@@ -79,8 +80,8 @@ $ npm install @ngx-server-push/express
   ],
   providers: [
     // Add universal-only providers here
-+     requestResponseWrapperProvider,
-+     ngModuleFactoryLoaderProvider
++   requestResponseWrapperProvider,
++   ngModuleFactoryLoaderProvider
   ],
   bootstrap: [ AppComponent ],
 })
@@ -95,10 +96,10 @@ export class AppServerModule {}
 app.engine('html', ngExpressEngine({
   bootstrap: AppServerModuleNgFactory,
   providers: [
--     provideModuleMap(LAZY_MODULE_MAP)
-+     provideModuleMap(LAZY_MODULE_MAP),
-+     // The require path should be relative to the build output path of the server.ts
-+     providePushConfig(require('./browser/ngx-server-push.config.json'))
+-   provideModuleMap(LAZY_MODULE_MAP)
++   provideModuleMap(LAZY_MODULE_MAP),
++   // The require path should be relative to the build output path of the server.ts
++   providePushConfig(require('./browser/ngx-server-push.config.json'))
   ]
 }));
 

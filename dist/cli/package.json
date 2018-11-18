@@ -1,6 +1,10 @@
 {
   "name": "@ngx-server-push/cli",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kimamula/ngx-server-push.git"
+  },
   "bin": {
     "ngxServerPush": "index.js"
   },

@@ -1,6 +1,10 @@
 {
   "name": "@ngx-server-push/webpack",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kimamula/ngx-server-push.git"
+  },
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
