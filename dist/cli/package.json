@@ -1,6 +1,6 @@
 {
   "name": "@ngx-server-push/cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kimamula/ngx-server-push.git"
@@ -18,7 +18,7 @@
     "@types/commander": "^2.12.2"
   },
   "dependencies": {
-    "@ngx-server-push/common": "^0.0.1",
+    "@ngx-server-push/common": "^0.0.2",
     "commander": "^2.0.0"
   },
   "files": [
